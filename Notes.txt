@@ -1,0 +1,28 @@
+1---->Install Material UI by using npm.
+
+               npm install @mui/material @mui/styled-engine-sc styled-components
+
+ 2-------> In this example we will make changes in App.js, we will import Material UI and
+           place a button with the primary color.
+
+
+ App.js--------->
+
+          import './App.css';
+import * as React from 'react';
+import Button from '@mui/material/Button';
+function App() {
+  return (
+    
+
+<div className="App">  
+<Button variant="contained">Hello world</Button>;
+
+<h1>Debashish Sahu</h1>
+    </div> 
+
+ 
+  );
+}
+
+export default App;
